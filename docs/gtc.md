@@ -12,7 +12,7 @@ We at 3DC believe in learning through hands-on. Therefore, we (optionally) chall
 
 ![](imgs/gtc/keychron.webp)
 
-For the challenge submission itself, there will be no sign-up form, just make sure you have signed up for at least one workshop and submit your code/application to us by **22nd January 2020**. The submission link and scoring criteria can be found at the bottom of the page.
+For the challenge submission itself, there will be no sign-up form, just make sure you have signed up for at least one workshop and submit your code/application to us by **31nd January 2020**. The submission link and scoring criteria can be found at the bottom of the page.
 
 ## Timeline
 
