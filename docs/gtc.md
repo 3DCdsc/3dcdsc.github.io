@@ -6,6 +6,8 @@ IAP 2021 is just around the corner, and we at 3DC have organised Google Tech Cha
 
 ## Challenge Announcement
 
+> 22/1/21 Update: We will be accepting submissions from "Introduction to Realtime Web Applications" IAP as well! To accommodate for this, we will also be extending the deadline for the GTC submission to **31st Jan**.
+
 We at 3DC believe in learning through hands-on. Therefore, we (optionally) challenge you (and your friends) to **create your own application(s) either during or after the workshop**, and submit them to us! Some ideas could be your own e-commerce platform or a club website! The best submission will win a **Keychron K2 Wireless Mechanical Keyboard**, while the 10 best submissions will receive $5 GrabFood vouchers!
 
 ![](imgs/gtc/keychron.webp)
@@ -34,7 +36,7 @@ We are not expecting finished products or anything like that! Just apply the con
 
 The scoring rules and criteria are as follows:
 
-1. Use **at least one of the technologies from our workshops** (Web, Android, Cloud, Telebot), but you are free to use any other technologies in conjunction as well.
+1. Use **at least one of the technologies from our workshops** (Web, Android, Cloud, Telebot), or "Introduction to Realtime Web Applications" IAP, but you are free to use any other technologies in conjunction as well.
 2. Do not submit projects/work that has been started for some time already (i.e. no cheating)!
 3. We want to see good implementations of **concepts learnt** (can be on your own or during workshops)! Be creative!
 4. If you have multiple pieces of prototype/work (e.g. different workshops), please submit them together. Implementing **multiple technologies** well may help you score higher!
