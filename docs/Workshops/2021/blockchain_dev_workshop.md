@@ -3,6 +3,7 @@
 #### Date: 12th, 13th March
 #### Time: 10:00am - 6:00pm
 #### Venue: Online
+#### Sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=drd2NJDpck-5UGJImDFiPT7laIF8QHhDuji50dJ_xY1UNUpKR1NVVE5YWDZNUjRNODdSTFdTSjc5OS4u)!
 
 Blockchain is a technology that you cannot explain it in any way without some kind of technical term (buzzword) that gets in the way of understanding it. Thus, the workshop is structured into getting students blockchain conversant and finally confident.
 
