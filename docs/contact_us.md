@@ -1,4 +1,4 @@
 # Contact Us
 
-- Primary E-mail: `3dc@club.sutd.edu.sg`
-- Secondary E-mail: `3dcsutd@gmail.com`
+-   Primary E-mail: `3dc [AT] club [DOT] sutd [DOT] edu [DOT] sg`
+-   Secondary E-mail: `3dcsutd [AT] gmail [DOT] com`

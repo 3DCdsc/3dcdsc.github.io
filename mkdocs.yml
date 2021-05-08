@@ -10,125 +10,121 @@ copyright: Digital Design and Development Club (3DC) &copy; 2019 - 2021. All rig
 
 # Theme Configuration
 theme:
-  name: material
-  language: en
-  favicon: imgs/code.svg
-  icon:
-    logo: fontawesome/solid/code
-  features:
-    - navigation.tabs
-    - navigation.expand
-  palette:
-    scheme: slate
-    primary: teal
-    accent: indigo
+    name: material
+    language: en
+    favicon: imgs/code.svg
+    icon:
+        logo: fontawesome/solid/code
+    features:
+        - navigation.tabs
+        # - navigation.expand
+    palette:
+        scheme: slate
+        primary: teal
+        accent: indigo
 
 # Extensions
 # https://squidfunk.github.io/mkdocs-material/reference/abbreviations/
 markdown_extensions:
-  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/buttons/#attribute-list
-  - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition
-  - pymdownx.caret # handling sub- and superscripts
-  - pymdownx.mark # highlighting of text
-  - pymdownx.tilde # strikethrough of text
-  - pymdownx.keys # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#keys
-  - pymdownx.tabbed # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#tabbed
-  - pymdownx.details # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#details
-  - pymdownx.highlight # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
-  - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#superfences
-  - pymdownx.smartsymbols # supporting special characters like copyright symbol (c)
-  - pymdownx.arithmatex: # https://squidfunk.github.io/mkdocs-material/reference/mathjax/#arithmatex
-      generic: true
-  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#emoji
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.tasklist: # https://squidfunk.github.io/mkdocs-material/reference/lists/#tasklist
-      custom_checkbox: true
-      clickable_checkbox: true
-  - toc: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
-      permalink: true
+    - attr_list # https://squidfunk.github.io/mkdocs-material/reference/buttons/#attribute-list
+    - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition
+    - pymdownx.caret # handling sub- and superscripts
+    - pymdownx.mark # highlighting of text
+    - pymdownx.tilde # strikethrough of text
+    - pymdownx.keys # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#keys
+    - pymdownx.tabbed # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#tabbed
+    - pymdownx.details # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#details
+    - pymdownx.highlight # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
+    - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#superfences
+    - pymdownx.smartsymbols # supporting special characters like copyright symbol (c)
+    - pymdownx.arithmatex: # https://squidfunk.github.io/mkdocs-material/reference/mathjax/#arithmatex
+          generic: true
+    - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#emoji
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.tasklist: # https://squidfunk.github.io/mkdocs-material/reference/lists/#tasklist
+          custom_checkbox: true
+          clickable_checkbox: true
+    - toc: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#table-of-contents
+          permalink: true
 
 # Extra Style
 extra_javascript:
-  - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - javascripts/config.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - stylesheets/extra.css
+    - stylesheets/extra.css
 
 # Customization
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/3DCdsc
-    - icon: fontawesome/brands/twitch
-      link: https://www.twitch.tv/3dcdsc
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCF56lQD1HWv-0uOQSXrTmLw
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/sutd3dc/
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/joinchat/C_Nni1C77ZlOVTdjU4yf4Q
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/3DCdsc
+        - icon: fontawesome/brands/twitch
+          link: https://www.twitch.tv/3dcdsc
+        - icon: fontawesome/brands/youtube
+          link: https://www.youtube.com/channel/UCF56lQD1HWv-0uOQSXrTmLw
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com/sutd3dc/
+        - icon: fontawesome/brands/telegram
+          link: https://t.me/joinchat/C_Nni1C77ZlOVTdjU4yf4Q
 
 # Navigation Menu
 nav:
-  - Home: "index.md"
-  #     - Projects:
-  #         - Projects: 'project.md'
-  - Workshops:
-      - Upcoming Workshops: 
-        - Intro to Programming: "Workshops/2021/intro_to_programming.md"
-        - Blockchain Development: "Workshops/2021/blockchain_dev_workshop.md"
-      - Past Workshops: "Workshops/2020/past_workshops.md"
-      - Workshop Organizer Guide: "Workshops/workshop_guide.md"
-  - Events:
-    - Past Events:
-      - Recess Week Challenge 2020:
-          - Challenge Introduction: "Recess_Week_Challenge_Stuff/recess_week_challenge.md"
-          - Cloud-based Lab: "Recess_Week_Challenge_Stuff/cloud_based_lab.md"
-          - HackerRank Guide: "Recess_Week_Challenge_Stuff/guide.md"
-          - Teaser Hints: "Recess_Week_Challenge_Stuff/teaser_hints.md"
-          - Teaser Solution: "Recess_Week_Challenge_Stuff/teaser_sols.md"
-          - Q1 Hints: "Recess_Week_Challenge_Stuff/q1_hints.md"
-          - Q1 Solution: "Recess_Week_Challenge_Stuff/q1_sol.md"
-          - Q2 Solution: "Recess_Week_Challenge_Stuff/q2_sol.md"
-          - Q3 Hints: "Recess_Week_Challenge_Stuff/q3_hints.md"
-          - Q3 Solution: "Recess_Week_Challenge_Stuff/q3_sol.md"
-          - Q4 Solution: "Recess_Week_Challenge_Stuff/q4_sol.md"
-          - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
-  - Google Tech Challenge 2021:
-    - Introduction: "gtc.md"
-    - "Web: Cookerino Website":
-      - "Day 1: Back-end (Django) Development": "gtc/web/day1.md"
-      - "Day 2: Front-end (React) Development": "gtc/web/day2.md"
-    - Android:
-      - Introduction: "gtc/android/android.md"
-      - Day 0 - Environment Setup: "gtc/android/day0a.md"
-      - Day 0 - Java Tutorial: "gtc/android/day0b.md"
-      - Day 1.1 - Introduction to Android Studio: "gtc/android/day1_androidstudio.md"
-      - Day 1.2 - Introduction to GUI: "gtc/android/day1_gui.md"
-      - Day 1.3 - Java in Android: "gtc/android/day1_java.md"
-      - Day 2.1 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
-      - Day 2.2 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
-      - Day 2.3 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
-      - Day 2.4 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
-      - Day 2.5 - Adding Firebase Storage: "gtc/android/day2-firebase-storage.md"
-      - Day 2.6 - (Bonus) Feeding your Friend's Pets: "gtc/android/day2-bonus.md"
-      - Day 2.7 - Distributing your App: "gtc/android/day2-distribute.md"
-      - Wrapup: "gtc/android/wrapup.md"
-    - Cloud:
-      - Session 1: "gtc/cloud/cloud.md"
-    - Telegram Bot:
-      - Day 1: "gtc/telebot/day1.md"
-      - Day 2: "gtc/telebot/day2.md"
-  - About Us:
-      - Core Team: "core_team.md"
-      - Contact Us: "contact_us.md"
-      - Join Us:
-        - Join 3DC as a Member: "3dc_membership.md"
-        - Join 3DC Core Team: "join_3dc_core.md"
-      - Resources:
-        - Demo Page: "demo.md"
-
-  - Code of Conduct: "code_of_conduct.md"
+    - Home: "index.md"
+    #     - Projects:
+    #         - Projects: 'project.md'
+    - Workshops:
+          - 2021:
+                - Intro to Programming: "Workshops/2021/intro_to_programming.md"
+                - Blockchain Development: "Workshops/2021/blockchain_dev_workshop.md"
+          - 2020: "Workshops/2020/past_workshops.md"
+          - Workshop Organizer Guide: "Workshops/workshop_guide.md"
+    - Events:
+          - Google Tech Challenge 2021:
+                - Introduction: "gtc.md"
+                - "Web: Cookerino Website":
+                      - "Day 1: Back-end (Django) Development": "gtc/web/day1.md"
+                      - "Day 2: Front-end (React) Development": "gtc/web/day2.md"
+                - Android:
+                      - Introduction: "gtc/android/android.md"
+                      - Day 0 - Environment Setup: "gtc/android/day0a.md"
+                      - Day 0 - Java Tutorial: "gtc/android/day0b.md"
+                      - Day 1.1 - Introduction to Android Studio: "gtc/android/day1_androidstudio.md"
+                      - Day 1.2 - Introduction to GUI: "gtc/android/day1_gui.md"
+                      - Day 1.3 - Java in Android: "gtc/android/day1_java.md"
+                      - Day 2.1 - Firebase Introduction: "gtc/android/day2-firebase-intro.md"
+                      - Day 2.2 - Adding Firebase to Your Project: "gtc/android/day2-firebase-sdk.md"
+                      - Day 2.3 - Adding Firebase Auth: "gtc/android/day2-firebase-auth.md"
+                      - Day 2.4 - Adding Firebase Realtime Database: "gtc/android/day2-firebase-db.md"
+                      - Day 2.5 - Adding Firebase Storage: "gtc/android/day2-firebase-storage.md"
+                      - Day 2.6 - (Bonus) Feeding your Friend's Pets: "gtc/android/day2-bonus.md"
+                      - Day 2.7 - Distributing your App: "gtc/android/day2-distribute.md"
+                      - Wrapup: "gtc/android/wrapup.md"
+                - Cloud:
+                      - Session 1: "gtc/cloud/cloud.md"
+                - Telegram Bot:
+                      - Day 1: "gtc/telebot/day1.md"
+                      - Day 2: "gtc/telebot/day2.md"
+          - Recess Week Challenge 2020:
+                - Challenge Introduction: "Recess_Week_Challenge_Stuff/recess_week_challenge.md"
+                - Cloud-based Lab: "Recess_Week_Challenge_Stuff/cloud_based_lab.md"
+                - HackerRank Guide: "Recess_Week_Challenge_Stuff/guide.md"
+                - Teaser Hints: "Recess_Week_Challenge_Stuff/teaser_hints.md"
+                - Teaser Solution: "Recess_Week_Challenge_Stuff/teaser_sols.md"
+                - Q1 Hints: "Recess_Week_Challenge_Stuff/q1_hints.md"
+                - Q1 Solution: "Recess_Week_Challenge_Stuff/q1_sol.md"
+                - Q2 Solution: "Recess_Week_Challenge_Stuff/q2_sol.md"
+                - Q3 Hints: "Recess_Week_Challenge_Stuff/q3_hints.md"
+                - Q3 Solution: "Recess_Week_Challenge_Stuff/q3_sol.md"
+                - Q4 Solution: "Recess_Week_Challenge_Stuff/q4_sol.md"
+                - Q5 Hints: "Recess_Week_Challenge_Stuff/q5_hints.md"
+    - About Us:
+          - Core Team: "core_team.md"
+          - Contact Us: "contact_us.md"
+          - Code of Conduct: "code_of_conduct.md"
+          - Join Us:
+                - Join 3DC as a Member: "3dc_membership.md"
+                - Join 3DC Core Team: "join_3dc_core.md"

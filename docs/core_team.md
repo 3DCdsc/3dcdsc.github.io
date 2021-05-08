@@ -20,7 +20,7 @@ Vice-President, Class of 2022<br/>
 <a href="https://github.com/MarkHershey"><img src="../imgs/logos/github.svg" class="logo"/></a>
 <a href="https://www.linkedin.com/in/huanghe97"><img src="../imgs/logos/linkedin.svg" class="logo"/></a>
 <br/>
-I'm a computer science undergraduate specialising artificial intelligence at SUTD. I have multidisciplinary experience as a software engineer and product manager in Agile software development teams. I am passionate about research in Computer Vision with Deep Learning as well as open-source stuff. 
+I'm a computer science undergraduate specializing artificial intelligence at SUTD. I have multidisciplinary experiences as a software engineer and product manager in Agile software development teams. I am passionate about open-source and research in Computer Vision with Deep Learning.
 
 <br/>
 
@@ -124,7 +124,7 @@ Interested in anything software related. I enjoy teaching others and building an
 
 <br/>
 
-<img src="../imgs/team/liling.jpg" alt="liling" class="profile-photo"/>
+<!-- <img src="../imgs/team/liling.jpg" alt="liling" class="profile-photo"/>
 <b>Tan Li Ling</b>
 <br/>Class of 2024
 <br/>
@@ -134,7 +134,7 @@ Interested in anything software related. I enjoy teaching others and building an
 Currently a freshmore. Started picking up python and linux after A-levels. Interested in fintech and cybersecurity.
 
 <br/>
-<br/>
+<br/> -->
 
 <img src="../imgs/team/divy.jpg" alt="divy" class="profile-photo"/>
 <b>Divy Chandra</b>
